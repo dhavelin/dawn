@@ -11,6 +11,7 @@ h3 {
 .header .header__menu-item {
   color: rgba(255, 255, 255, 0.6);
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .header .link--text {
