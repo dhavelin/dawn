@@ -24,3 +24,7 @@ h3 {
 .header .header__icon:hover .icon {
   transform: scale(1.57);
 }
+
+.media > img {
+  object-fit: contain;
+}
