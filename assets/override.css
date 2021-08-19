@@ -3,3 +3,16 @@ h2,
 h3 {
   text-transform: uppercase !important;
 }
+
+.header {
+  background-color: #222222;
+}
+
+.header .header__menu-item {
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+}
+
+.header .link--text {
+  color: rgba(255, 255, 255, 0.6);
+}
