@@ -17,3 +17,10 @@ h3 {
 .header .link--text {
   color: rgba(255, 255, 255, 0.6);
 }
+
+.header .header__icon .icon {
+  transform: scale(1.5);
+}
+.header .header__icon:hover .icon {
+  transform: scale(1.57);
+}
