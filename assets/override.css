@@ -25,6 +25,9 @@ h3 {
   transform: scale(1.57);
 }
 
+.media {
+  background-color: #ffffff !important;
+}
 .media > img {
   object-fit: contain;
 }
