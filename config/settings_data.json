@@ -9,9 +9,11 @@
     "colors_background_2": "#f3f3f3",
     "type_header_font": "open_sans_condensed_n7",
     "type_body_font": "source_sans_pro_n4",
+    "page_width": "1600",
     "social_twitter_link": "https:\/\/twitter.com\/thevirginmaryb2",
     "social_facebook_link": "https:\/\/www.facebook.com\/thevirginmarybar\/",
     "social_instagram_link": "https:\/\/www.instagram.com\/thevirginmarybar",
+    "currency_code_enabled": false,
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
