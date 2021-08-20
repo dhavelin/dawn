@@ -4,6 +4,11 @@ h3 {
   text-transform: uppercase !important;
 }
 
+.h5,
+h5 {
+  font-size: 1.5rem;
+}
+
 .header {
   background-color: #222222;
 }
@@ -30,6 +35,11 @@ h3 {
 }
 .media > img {
   object-fit: contain;
+}
+
+.card-information__text {
+  text-align: center;
+  padding-left: 1.2rem;
 }
 
 .footer .copyright__content {
