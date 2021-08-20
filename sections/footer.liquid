@@ -14,7 +14,7 @@
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'disclosure.css' | asset_url | stylesheet_tag }}</noscript>
 
-<footer class="footer" style="background-color:#222">
+<footer class="footer color-{{ section.settings.color_scheme }}">
   {%- if section.blocks.size > 0 or section.settings.newsletter_enable or section.settings.show_social -%}
     <div class="footer__content-top page-width">
       {%- if section.blocks.size > 0 -%}
@@ -44,7 +44,7 @@
                     <ul class="footer-block__details-content list-unstyled">
                       {%- for link in block.settings.menu.links -%}
                         <li>
-                          <a href="{{ link.url }}" class="link link--text list-menu__item list-menu__item--link{% if link.active %} list-menu__item--active{% endif %}" style="font-size:1.6rem">
+                          <a href="{{ link.url }}" class="link link--text list-menu__item list-menu__item--link{% if link.active %} list-menu__item--active{% endif %}">
                             {{ link.title }}
                           </a>
                         </li>
@@ -71,16 +71,6 @@
                 {%- endcase -%}
             </div>
           {%- endfor -%}
-          <div class="footer-block__details-content rte">
-            <h2 class="footer-block__heading">Contact Us</h2>
-            <div class="footer-block__details-content rte" data-live-text-setting="section.footer.block.footer-1.subtext">
-              <p>
-                <a href="mailto:info@thevirginmarybar.com" class="link link--text list-menu__item list-menu__item--link">
-                  info@thevirginmarybar.com
-                </a>
-              </p>
-            </div>
-          </div>
         </div>
       {%- endif -%}
 
@@ -313,8 +303,9 @@
             </ul>
           </div>
         {%- endif -%}
-        <div class="footer__copyright">
-          <p class="copyright__content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</p>
+        <div class="footer__copyright caption">
+          <small class="copyright__content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
+          <small class="copyright__content">{{ powered_by_link }}</small>
         </div>
       </div>
     </div>
