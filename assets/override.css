@@ -31,3 +31,11 @@ h3 {
 .media > img {
   object-fit: contain;
 }
+
+.footer .copyright__content {
+  font-size: 1.4rem;
+}
+
+.footer .link {
+  font-size: 1.6rem;
+}
