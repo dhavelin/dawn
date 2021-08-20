@@ -37,9 +37,17 @@ h5 {
   object-fit: contain;
 }
 
-.card-information__text {
+.card-information__wrapper .card-information__text {
   text-align: center;
   padding-left: 1.2rem;
+}
+
+.card-information__wrapper .price {
+  justify-content: center;
+}
+
+.card-information__wrapper .price dd {
+  margin: 0;
 }
 
 .footer .copyright__content {
