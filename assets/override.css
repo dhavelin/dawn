@@ -30,6 +30,22 @@ h5 {
   transform: scale(1.57);
 }
 
+.header .header__heading-logo {
+  width: unset;
+  vertical-align: middle;
+}
+
+.header .header__heading-tvm {
+  color: #ffffff;
+  font-size: 32px;
+}
+
+@media screen and (max-width: 989px) {
+  .header .header__heading-tvm {
+    display: none;
+  }
+}
+
 .media {
   background-color: #ffffff !important;
 }
