@@ -3,10 +3,10 @@
     "colors_solid_button_labels": "#000000",
     "colors_accent_1": "#121212",
     "colors_accent_2": "#d79404",
-    "colors_text": "#121212",
-    "colors_outline_button_labels": "#121212",
+    "colors_text": "#222222",
+    "colors_outline_button_labels": "#222222",
     "colors_background_1": "#f0f0f0",
-    "colors_background_2": "#f3f3f3",
+    "colors_background_2": "#ffffff",
     "type_header_font": "open_sans_condensed_n7",
     "type_body_font": "source_sans_pro_n4",
     "page_width": "1600",
@@ -51,15 +51,15 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "The Virgin Mary",
               "menu": "footer"
             }
           },
           "footer-1": {
             "type": "text",
             "settings": {
-              "heading": "Heading",
-              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+              "heading": "Contact Us",
+              "subtext": "<p>info@thevirginmarybar.com<\/p>"
             }
           }
         },
